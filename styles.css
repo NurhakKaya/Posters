@@ -32,7 +32,7 @@ body {
 .bar {
   width: 11%;
   height: 900px;
-  background: #c0392b;
+  background: red;
 }
 
 /* Text Content */
@@ -56,6 +56,7 @@ body {
 /* Event Info */
 .info {
   text-align: left;
+  padding-top: 400px;
 }
 
 .date {
@@ -64,7 +65,7 @@ body {
 }
 
 .red {
-  color: #c0392b;
+  color: red;
 }
 
 .location {
