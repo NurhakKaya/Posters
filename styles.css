@@ -1,0 +1,94 @@
+﻿/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: left;
+  padding: 20px;
+}
+
+.container {
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Red Bars */
+.row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.bar {
+  width: 11%;
+  height: 900px;
+  background: #c0392b;
+}
+
+/* Text Content */
+.content {
+  text-align: left;
+  margin-bottom: 80px;
+}
+
+.title {
+  font-size: 73px;
+  font-weight: bold;
+  text-transform: lowercase;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: #333;
+}
+
+/* Event Info */
+.info {
+  text-align: left;
+}
+
+.date {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.red {
+  color: #c0392b;
+}
+
+.location {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.details {
+  font-size: 9px;
+  font-weight: bold;
+  color: #444;
+}
+
+.content-section {
+  padding: 240px 0px 0px 25px;
+  /* padding-top: 50px; */
+}
+
+/* Vertical Text */
+.vertical-text {
+  position: absolute;
+  right: 15px;
+  top: 1%;
+  font-size: 12px;
+  transform: rotate(-90deg);
+  transform-origin: right top;
+}
